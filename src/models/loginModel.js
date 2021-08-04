@@ -68,8 +68,8 @@ class Login {
 
     cleanUp() {
         for(const key in this.body) {
-            if(typeof this.body[key] !== 'string') {
-                this.body[key] = '';
+            if(typeof this.body["key"] !== 'string') {
+                this.body["key"] = '';
             }
         }
 
